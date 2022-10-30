@@ -51,7 +51,7 @@ p{
 }
 
 #video{
-    box-shadow: 1.5px 1.5px 10px red;
+    box-shadow: 1.5px 1.5px 10px rgba(255, 0, 0, 0.877);
     padding: 4px;
     display: block;
     width: 55vw;

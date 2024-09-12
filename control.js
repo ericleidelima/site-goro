@@ -10,8 +10,6 @@
     // Espelha o conteúdo da div selecionada para o container de destino
     container2.innerHTML = divToMirror.innerHTML;
 
-    mostrarDiv();
-
   }
   
   function mostrarDiv(){
@@ -19,3 +17,5 @@
 
        divInv.style.display = "block";
   };
+
+  

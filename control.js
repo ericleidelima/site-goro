@@ -1,21 +1,30 @@
 
   function espelharDiv(divId){
-    
-    // Seleciona a div específica pelo ID
+      
     const divToMirror = document.getElementById(divId);
     
-    // Seleciona a div de destino (onde será espelhado o conteúdo)
     const container2 = document.getElementById('containerX');
-    
-    // Espelha o conteúdo da div selecionada para o container de destino
+
     container2.innerHTML = divToMirror.innerHTML;
 
-  }
-  
-  function mostrarDiv(){
-       const divInv = document.getElementById("divInvisivel")
-
-       divInv.style.display = "block";
+    esconderImagem2()
   };
 
-  
+
+  function mostrarDiv() {
+            const div1 = window.document.getElementById("divInvisivel");
+            
+            if (div1.style.display === "none" ) {
+        
+                div1.style.display = "block"; 
+            } else {
+                div1.style.display = "none";
+            }
+           
+        };
+
+
+function esconderImagem2() {
+            var imagem2 = document.getElementById("divInvisivel");
+            imagem2.style.display = "none"; // Esconde a imagem2
+        };

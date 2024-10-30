@@ -25,8 +25,6 @@ main{
     justify-content: center;
     align-items: center;
     padding: 30px 0%;
-    
-   
 }
 
 h1,h2,h3{
@@ -66,7 +64,7 @@ header{
     margin-left: 2vw;
     align-items: center;
     margin-bottom: 15px;
-    display: flex;
+    display: inline;
 }
 
 header >  nav > a{
@@ -251,6 +249,15 @@ aside{
 #divInvisivel > img{
     width: 50%;
     max-width: 100%;
+}
+
+
+.divToMirror > img{
+    transition: transform 0.3s ease; /* Tempo e suavidade da transição */
+}
+
+.divToMirror > img:hover {
+    transform: scale(1.2); /* Faz o zoom na imagem, aumentando 10% */
 }
 
 /*============================================= MODELO ===========================*/
